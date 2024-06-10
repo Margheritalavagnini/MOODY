@@ -1,0 +1,562 @@
+[
+ {
+  "Soggetto": "Eyes",
+  "File": "0",
+  "Descrizione": "Big",
+  "Riempimento": "LightBlu",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "1",
+  "Descrizione": "Big",
+  "Riempimento": "Green",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "2",
+  "Descrizione": "Big",
+  "Riempimento": "Brown",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "3",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "4",
+  "Descrizione": "Big",
+  "Riempimento": "Black",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "5",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "6",
+  "Descrizione": "Big",
+  "Riempimento": "Black",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "7",
+  "Descrizione": "Big",
+  "Riempimento": "Black",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "8",
+  "Descrizione": "Big",
+  "Riempimento": "Black",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "9",
+  "Descrizione": "Big",
+  "Riempimento": "LightBlu",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "10",
+  "Descrizione": "Big",
+  "Riempimento": "Brown",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "11",
+  "Descrizione": "Big",
+  "Riempimento": "Black",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "12",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "13",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "14",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "15",
+  "Descrizione": "Big",
+  "Riempimento": "LightBlu",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "16",
+  "Descrizione": "Big",
+  "Riempimento": "Black",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "17",
+  "Descrizione": "Big",
+  "Riempimento": "Green",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "18",
+  "Descrizione": "Big",
+  "Riempimento": "Black",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Eyes",
+  "File": "19",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "20",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "21",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "22",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "23",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "24",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "25",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "26",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "27",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "28",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "29",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "30",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "31",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "32",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "33",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "34",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "35",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "36",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "37",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "38",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Ears",
+  "File": "39",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "40",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "41",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "42",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "43",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "44",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "45",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "46",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "47",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "48",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "49",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "50",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "51",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "52",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "53",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "54",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "55",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "56",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "57",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "58",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Noses",
+  "File": "59",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "60",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "61",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Red"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "62",
+  "Descrizione": "Medium",
+  "Riempimento": "Red",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "63",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "64",
+  "Descrizione": "Medium",
+  "Riempimento": "Red",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "65",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "66",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "67",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Red"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "68",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Red"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "69",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Red"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "70",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "71",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Red"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "72",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "73",
+  "Descrizione": "Big",
+  "Riempimento": "Red",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "74",
+  "Descrizione": "Medium",
+  "Riempimento": "Empty",
+  "Contorno": "Red"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "75",
+  "Descrizione": "Little",
+  "Riempimento": "Empty",
+  "Contorno": "Red"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "76",
+  "Descrizione": "Little",
+  "Riempimento": "Red",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "77",
+  "Descrizione": "Medium",
+  "Riempimento": "Red",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "78",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ },
+ {
+  "Soggetto": "Mouths",
+  "File": "79",
+  "Descrizione": "Big",
+  "Riempimento": "Empty",
+  "Contorno": "Black"
+ }
+]

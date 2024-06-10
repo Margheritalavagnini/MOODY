@@ -1,0 +1,192 @@
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+ }
+
+ body {
+  font-family: Helvetica, sans-serif; /* Imposta il font per tutto il corpo del documento */
+}
+
+h1 {
+  position: absolute;
+  font-size: 7em; /* Modifica qui */
+  top: 0px;
+  left: 100px;
+}
+
+/* POSIZIONE TESTI ------------------------------------------------------------------------------------------------------ */
+
+.top-left-text-1{
+  position: absolute;
+  top: 128px;
+  left: 600px;
+  font-weight: bold;
+}
+
+.top-left-text-2{
+  position: absolute;
+  top: 128px;
+  left: 900px;
+}
+
+.bottom-left-text-2{
+  position: absolute;
+  top: 830px;
+  left: 100px;
+}
+
+
+.herf-metadati{
+  font-weight: bold;
+  font-size: 13px;
+  position: absolute;
+  top: 145px;
+  right: 100px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+.gallery {
+  top: 370px;    
+  width: 700px; 
+  height: 300px; 
+  position: relative;
+  margin-left: 100px; 
+  margin-right:auto; 
+  margin-top: -170px ; 
+}
+
+.gallery img { 
+  width: 90%; 
+  height: 80%; 
+  object-fit: contain; 
+}
+
+.slides { 
+  display: flex;
+  overflow-x: hidden;
+}
+
+.slide {
+  flex: 0 0 900px; /* Larghezza dei singoli elementi slide */
+}
+
+.navigation {
+  position: absolute; 
+  top: 50%;
+  transform: translateY(0%);
+  width: 90%;    
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.grid_container {
+  display: none;
+  position: absolute;
+  grid-template-columns: repeat(4, 1fr); /* 4 colonne */
+  gap: 50px; /* Spazio tra le celle */
+  top: 350px;
+  left: 850px;
+  right: 20px;
+}
+
+.output_container_1{
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  left: 80px;
+  top: 300px;
+}
+
+.output_container_2{
+  position: absolute;
+  width: 800px;
+  height: 250px;
+  left: 80px;
+  top: 400px;
+}
+
+.output_container_3{
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  left: 80px;
+  top: 450px;
+}
+
+.output_container_4{
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  left: 80px;
+  top: 590px;
+}
+
+
+.box {
+  width: 80%; /* Larghezza della cella */
+  height: 80%; /* Altezza della cella */
+  display: block; /* Nasconde le box di default */
+  right: 50px;
+  bottom: 50px;
+}
+
+.box img {
+  width: 120%; /* Riempie completamente la cella */
+  height: 120%;
+  object-fit: contain; /* Scala l'immagine per adattarla alla cella mantenendo le proporzioni */
+}
+
+.button-1{
+  color: black;
+  stroke: black;
+  background-color: white;
+  font-weight: bold;
+  font-size: 13px;
+  position: absolute;
+  top: 270px;
+  right:778px;
+}
+.button-2{
+  color: black;
+  stroke: black;
+  background-color: white;
+  font-weight: bold;
+  font-size: 13px;
+  position: absolute;
+  top: 270px;
+  right:710px;
+}
+.button-3{
+  color: black;
+  stroke: black;
+  background-color: white;
+  font-weight: bold;
+  font-size: 13px;
+  position: absolute;
+  top: 270px;
+  right:637px;
+}
+.button-4{
+  color: black;
+  stroke: black;
+  background-color: white;
+  font-weight: bold;
+  font-size: 13px;
+  position: absolute;
+  top: 270px;
+  right:555px;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255); 
+}

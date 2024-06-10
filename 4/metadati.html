@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metadata</title>
+    <link rel="stylesheet" href="../assets/style/Style.css">
+    <style>
+        /* Stili CSS per la visualizzazione lineare dei metadati */
+        body {
+            font-family: Helvetica, sans-serif; /* Imposta il font per tutto il corpo del documento */
+        }
+
+        h1 {
+            font-size: 7em; /* Modifica qui */
+            position: absolute;
+            top: 0px;
+            left: 30px;
+        }
+
+        .metadata-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 0; 
+            margin-top: 300px; 
+            width: 100%; /* Imposta la larghezza al 100% */
+            height: calc 120vh; /* Imposta l'altezza al 100% meno il margine superiore */
+        }
+    
+        
+        .metadata-item {
+            flex: 0 0 calc(25% - 20px); /* Fissa la larghezza di ciascuna cella */
+            /* margin-bottom: 20px; Aggiungi margine inferiore per spaziatura */
+            text-align: center; /* Centra il testo orizzontalmente */
+        }
+        
+        .metadata-item img {
+            width: 200px; /* Assicura che le immagini non superino la larghezza del loro contenitore */
+            height: auto;
+        }
+        
+        .metadata-item .image-info {
+            font-size: 12px;
+            text-align: center;
+            margin-top: 0px; /* Aggiungi margine superiore per spaziatura */
+        }
+
+        /* Stili per le linee divisorie */
+        hr {
+            margin: 40px 0; /* Aggiungi margine superiore e inferiore */
+            border-top: 1px solid #000000;
+            width: 100%;
+            margin-bottom: 80px;
+        }
+
+        /* Stili per il titolo modificabile */
+        .section-title {
+            font-weight: bold;
+            font-size: 1.5em; /* Dimensione del font */
+            color: black; /* Colore del testo */
+            padding: 5px; /* Aggiungi spaziatura interna */
+            width: 30%; /* Larghezza del campo di input */
+            left: 30px;
+            margin-top: -39px;
+        }
+
+        .herf-home{
+        font-weight: bold;
+        font-size: 13px;
+        position: absolute;
+        top: 145px;
+        right: 30px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <header>
+        <!-- Aggiungi eventuali elementi dell'header qui -->
+        <h1>Metadata</h1>
+    </header>
+
+    <main class="metadata-container"></main>
+
+    <a href="../index.html" class="herf-home">Home</a>
+
+    <script>
+        let metadata;
+
+        // Funzione per caricare i metadati all'avvio della pagina
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch("../assets/data/Metadati.json")
+            .then(response => response.json())
+            .then(json => {
+                metadata = json;
+                displayMetadata();
+            });
+        });
+
+        // Funzione per visualizzare i metadati suddivisi per categorie
+        function displayMetadata() {
+            const mainContainer = document.querySelector('main');
+            const categories = ['Eyes', 'Ears', 'Noses', 'Mouths'];
+            let imageCount = 0; // Contatore delle immagini visualizzate
+
+            categories.forEach(category => {
+                const categoryItems = metadata.filter(item => item.Soggetto === category);
+                const categoryHtml = categoryItems.map((item, index) => {
+                    // Aggiungi il titolo per la categoria prima della prima immagine
+                    if (index === 0) {
+                        return `
+                            <div class="metadata-item">
+                                <div class="section-title">${category}</div>
+                                <img src='../assets/imgs/Imm_unite/${item.File}.png'>
+                                <div class="image-info">
+                                    <div>${item.Descrizione}</div>
+                                    <div>${item.Riempimento}</div>
+                                    <div>${item.Contorno}</div>
+                                </div>
+                            </div>
+                        `;
+                    } else {
+                        return `
+                            <div class='metadata-item'>
+                                <img src='../assets/imgs/Imm_unite/${item.File}.png'>
+                                <div class="image-info">
+                                    <div>${item.Descrizione}</div>
+                                    <div>${item.Riempimento}</div>
+                                    <div>${item.Contorno}</div>
+                                </div>
+                            </div>
+                        `;
+                    }
+                }).join('');
+
+                mainContainer.innerHTML += categoryHtml;
+
+                // Aggiungi una nuova categoria ogni 20 immagini
+                if ((imageCount + categoryItems.length) % 20 === 0 && imageCount < metadata.length) {
+                    mainContainer.innerHTML += '<hr>'; // Aggiungi una linea divisoria
+                }
+
+                // Incrementa il conteggio delle immagini
+                imageCount += categoryItems.length;
+            });
+        }
+    </script>
+</body>
+</html>
