@@ -19,7 +19,7 @@ Non mi sono basata su un esempio preciso di progettazione poiché ritenevo impor
 
 ## Design dell’interfraccia e modalià di interazione
 Il sito web presenta un titolo in grassetto “MOODY” su uno sfondo bianco. Gli utenti sono guidati da istruzioni che li invitano a creare manualmente il loro avatar cambiando ogni parte facendo clic su di essa. Questa personalizzazione è possibile grazie a una serie di caratteristiche facciali visualizzate sul lato destro della pagina web. Le caratteristiche sono raggruppate in quattro categorie: Occhi, Orecchie, Naso, Bocca. La parte principale della pagina mostra le istruzioni per la creazione dell'avatar. Infine, nell’angolo in alto a destra, gli utenti possono trovare una sezione etichettata “Metadati”. Cliccando sull'etichetta è possibile visualizzare tutte le illustarzioni suddivise per categorie: Occhi, Orecchie, Naso, Bocca; sotto a ogni immagini vengono mostrate le caratteristiche di ogni illustarzione.  Nel complesso, l’interfaccia del sito web appare semplice e intuitiva, offrendo agli utenti la possibilità di esprimere la propria personalità tramite un metodo 
-[<img src="doc/cards.gif" width="500" alt="Magic trick">]()
+[<img src="doc/Registrazione.mov" width="500" alt="Magic trick">]()
 
 
 ## Tecnologia usata
