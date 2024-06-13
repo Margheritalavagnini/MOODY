@@ -6,7 +6,7 @@ Elaborato 1: Moody
 
 # MOODY
 Autore: Margherita Lavagnini  
-[MediaPipe demo-ES6](https://margheritalavagnini.github.io/MOODY/)
+[MOODY demo](https://margheritalavagnini.github.io/MOODY/)
 
 ## Introduzione e tema
 “MOODY” è un sito web interattivo che offre un’esperienza unica di espressione creativa. Il sito permette agli utenti di personalizzare le espressioni facciali per rappresentare il loro stato d’animo. “MOODY” combina interattività, espressione creativa, semplicità e divertimento per offrire un’esperienza unica agli utenti. Che tu sia un artista digitale, un designer o semplicemente alla ricerca di un modo divertente per esprimere il tuo stato d’animo, “MOODY” ha qualcosa da offrire a tutti.
